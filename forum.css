@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+#button1
+{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border: solid 2px #66fcf1;
+    width: 300px;
+    height: 5%;
+    border-radius: 5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+    float: left;
+}
+#button2
+{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border: solid 2px #66fcf1;
+    width: 300px;
+    height: 5%;
+    border-radius: 5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 25%;
+  margin-top: 4%;
+  width: 50%;
+}
+
+#myUL li a {
+    
+  border: solid 2px grey;
+  padding-top: 0.5%;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+  text-decoration: none;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  display: block;
+    
+}
+
+#myUL li a:hover:not(.header) {
+    border: solid 2px grey;
+  padding-top: 0.5%;
+  margin-top: -1px; /* Prevent double borders */
+  padding: 12px;
+  text-decoration: none;
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  display: block;
+  background-color: grey;   
+}
+
+#recent {
+    font-size: 200%;
+    font-family: arial;
+    color: green;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    position: fixed;
+}
+
+#title {
+  font-size: 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  margin-left: 25%;
+  margin-top: 7%;
+  position: fixed;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-left: 25%;
+  margin-top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
