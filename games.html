@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" type="text/css"
+    href="css/games.css">
+    <title>Games</title>
+    <script src="script.js"></script></head>
+ <body background="01.jpg">
+   <a href="index.html"><div id="button2">GO TO Homepage</div></a>
+   <div id="title" style="color: grey;">Search</div>
+    <table>
+  <tr>
+  <td><span id="waktu" style="color: gray;">Time Left  </span></td><td>:  <input type="text" id="time" class="text"/></td></tr>
+  <tr><td><span id="angka" style="color: gray;">Score      </span></td><td>:  <input type="text" id="score" class="text" />  >= 20</td></tr>
+  <tr><td><input type="button" onclick="start()" value="start" id="start"/></td><td><select name="level">
+   <option value="level1">Level 1</option>
+   <option value="level2">Level 2</option>
+   <option value="level3">Level 3</option>
+   <option value="level4">Level 4</option>
+   
+  </select></td></tr>
+  </table>
+  <div id="arena"><img src="02.jpg" id="gambar" onclick="nilai()" width="100px" height="100px"/>
+  </div>
+  &nbsp;
+  &nbsp;
+  <div class="rule" style="float: right;"><p><h1>The Game Rule:</h1></p>
+
+   <h2 >1. Click the Start button.</h2>
+   
+   <h2>2. pictures of monsters will move fast.</h2>
+   <h2>3. Click as many pictures of the monster as possible.</h2>
+   <h2>4. If the score is more than 20, then you will win.</h2>
+</div>
+ </body>
+</html>
