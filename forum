@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css"
+        href="css/homepage.css">
+    <link rel="stylesheet" type="text/css"
+        href="css/forum.css">
+    <script src="script.js"></script>
+        <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="script.js"></script>
+    <title>Forum</title>
+</head>
+
+<body background="01.jpg">
+    
+    <a href="index.html"><div id="button1">GO TO HOMEPAGE</div></a>
+    <a href="games.html"><div id="button2">GO TO Games</div></a> 
+    <div id="title">Ask Anything Here</div>
+    &nbsp;
+    &nbsp;
+    <div class="gcse-search" id="myInput"><script async src="https://cse.google.com/cse.js?cx=017363745202122052908:cxmdyyjg1b5"></script></div> 
+
+    
+    
+
+
+</body>
+</html>
