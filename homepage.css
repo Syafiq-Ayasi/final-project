@@ -1,0 +1,67 @@
+{ margin: 0; padding: 0; }
+
+#button:hover
+{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    border: solid 2px grey;
+    width: 300px;
+    height: 5%;
+    position: fixed;
+    border-radius: 5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+}
+
+#welcome 
+{
+    font-size: 700%;
+    font-family: Arial, Helvetica, sans-serif
+    color:green;
+    margin-left: 27%;
+    margin-top: 18%;
+    position: fixed;
+}
+
+#Clickhere
+{
+  font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif
+    color:green;
+    margin-left: 28%;
+    margin-top: 27%;
+    position: fixed;
+}
+
+#button1
+{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border: solid 2px #66fcf1;
+    width: 300px;
+    height: 5%;
+    border-radius: 5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+    float: left;
+}
+#button2
+{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border: solid 2px #66fcf1;
+    width: 300px;
+    height: 5%;
+    border-radius: 5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+    float: right;
+}
+
